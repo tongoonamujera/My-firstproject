@@ -2,6 +2,7 @@ html {
   background-color: white;
   font-family: 'Times New Roman';
 }
+
 /*
 container for all
 */
@@ -19,6 +20,7 @@ container for all
   position: fixed;
   top: 0%;
 }
+
 #gra {
   position: fixed;
   right: 35%;
@@ -27,11 +29,13 @@ container for all
   width: 220px !important;
   height: 10% !important;
 }
+
 .space {
   position: fixed;
   left: 15%;
   top: 0%;
 }
+
 .log {
   position: fixed;
   right: 0%;
@@ -42,6 +46,7 @@ container for all
   border-radius: 5px;
   color: white;
 }
+
 .sub {
   position: fixed;
   right: 8%;
@@ -52,39 +57,47 @@ container for all
   border-radius: 5px;
   color: white;
 }
+
 /*
 main section
 */
+
 .social {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
   width: auto;
 }
+
 .socialIm {
   height: 20px !important;
   width: 25px !important;
 }
+
 .main-sec {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
 }
+
 /*
 main one starts here 
 */
+
 .mainOne {
   display: flex;
   flex-direction: column;
   margin-left: 25%;
   margin-right: 25%;
 }
+
 /*
 main one end here
 */
 /*
 main two starts here
 */
+
 .mainTwo {
   display: flex;
   flex-direction: column;
@@ -94,84 +107,102 @@ main two starts here
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
 .mainTwoTop {
   display: flex;
   justify-content: center;
 }
+
 .mainTwoBottom {
   display: flex;
   justify-content: center;
 }
+
 .mainTwoBottomArt {
   display: flex;
   flex-direction: column;
 }
+
 .mainTwoTopONe {
   display: flex;
   flex-direction: column;
-
 }
+
 .mainTwoTopTwo {
   display: flex;
   flex-direction: column;
 }
+
 /*
 main two ends here
 */
+
 .mainThree {
   display: flex;
   flex-direction: column;
   margin-right: 25%;
   margin-left: 25%;
 }
+
 /*
 main three ends here
 */
 /* 
 suggestions main starts here 
 */
+
 .suggestions-sec {
   display: flex;
   justify-content: space-between;
 }
+
 .inner-sugOne {
   display: flex;
   flex-direction: column;
 }
+
 .topSug {
   display: flex;
 }
+
 .topSugArt {
   display: flex;
   flex-direction: column;
 }
+
 .spaceAndAstronomy {
   display: flex;
   flex: 2.7;
   justify-content: space-between;
   flex-direction: column;
 }
+
 .spaceAndAstronomyInner {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
 .spaceAndAstronomyArt {
   display: flex;
   flex-direction: column;
 }
+
 .Eiditor {
   display: flex;
 }
+
 .EditorArt {
   display: flex;
   flex-direction: column;
   
 }
+
 .ev {
   font-size: 15px;
   border-top: 1px black;
 }
+
 #fh {
   font-size: 45px;
   text-align: center;
@@ -179,17 +210,20 @@ suggestions main starts here
   right: 305;
   font-style: italic;
 }
+
 .mostPopSec {
   display: flex;
   flex: 0.5;
   flex-direction: column;
   font-size: 10px !important;
 }
+
 footer {
   display: flex;
   flex-direction: column;
   margin-right: 0%;
 }
+
 .new {
   display: flex;
   flex-direction: column;
@@ -200,24 +234,29 @@ img {
   width: 150px;
 margin-right: -10%;
 }
+
 .mostImpo {
   height: 400px;
   width: 100%;
   margin-right: 0%;
 }
+
 .impicO {
   height: 500px;
   width: 90%;
   margin-left: 5%;
   margin-right: 5%;
 }
+
 .artof {
   text-align: center;
 }
+
 .infp {
   padding-left: 10% !important;
   font-size: 10px !important;
 }
+
 .lastSec {
   display: flex;
   flex-direction: column;
@@ -226,62 +265,77 @@ margin-right: -10%;
   flex-wrap: wrap;
   align-items: center;
 }
+
 .infph {
   font-size: 15px !important;
   position: relative;
   right: -5%;
 }
+
 p {
   font-size: 20px;
 }
+
 .hrsection {
   display: flex;
 }
+
 .plast {
   font-size: 10px !important;
 }
+
 .insp {
   font-size: 14px !important;
 }
+
 .infm {
   position: relative;
   font-size: 17px;
 }
+
 .sugim {
   height: 220px !important;
   width: 240px !important;
 }
+
 /*
 .lty {
   border-left: 3px black;
 }
 */
+
 a {
   text-decoration: none;
   color: rgb(155, 146, 146) !important;
 }
+
 .footEsc {
   display: flex;
   flex: 1;
   flex-direction: row;
 }
+
 .containerNav {
   display: flex;
   justify-content: space-between;
 }
+
 .options {
   display: flex;
   flex-direction: column;
 }
+
 .newsletters {
   display: flex;
   flex-direction: column;
 }
+
 .containerForPics {
   display: flex;
   flex-direction: row-reverse;
   margin-right: 20%;
 }
+
 .newsletter {
   border: 1px solid black;
 }
