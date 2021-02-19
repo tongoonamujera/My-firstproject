@@ -1,6 +1,6 @@
 html {
   background-color: white;
-  font-family: 'Times New Roman';
+  font-family: 'Times New Roman', Times, serif;
 }
 
 /*
@@ -80,9 +80,7 @@ main section
   flex-wrap: wrap;
 }
 
-/*
-main one starts here 
-*/
+/*main one starts here */ 
 
 .mainOne {
   display: flex;
@@ -91,12 +89,9 @@ main one starts here
   margin-right: 25%;
 }
 
-/*
-main one end here
-*/
-/*
-main two starts here
-*/
+/* main one end here */
+
+/* main two starts here */
 
 .mainTwo {
   display: flex;
@@ -144,12 +139,9 @@ main two ends here
   margin-left: 25%;
 }
 
-/*
-main three ends here
-*/
-/* 
-suggestions main starts here 
-*/
+/* main three ends here */
+
+/* suggestions main starts here */
 
 .suggestions-sec {
   display: flex;
@@ -260,7 +252,6 @@ margin-right: -10%;
 .lastSec {
   display: flex;
   flex-direction: column;
-  margin-left: 10%;
   margin-left: 10%;
   flex-wrap: wrap;
   align-items: center;
