@@ -339,3 +339,7 @@ a {
 .newsletter {
   border: 1px solid black;
 }
+
+iframe {
+  border: 0;
+}
