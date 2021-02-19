@@ -362,3 +362,35 @@ iframe {
 .thirdCon {
   order: 2;
 }
+
+form {
+  text-align: left;
+  background-color: silver;
+}
+
+.ii {
+  width: 60%;
+}
+
+.inpsub {
+  background-color: rgb(48, 48, 90);
+  position: relative;
+  right: 50%;
+  left: 10%;
+  color: white;
+}
+
+#comment {
+  margin-left: 10% !important;
+}
+
+.radioSec {
+  border: 2px solid black;
+}
+
+.two {
+  height: 40px;
+}
+legend {
+  font-size: 20px;
+}
