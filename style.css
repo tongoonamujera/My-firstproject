@@ -145,7 +145,7 @@ main two ends here
 
 .suggestions-sec {
   display: flex;
-  justify-content: space-between;
+  flex: 1;
 }
 
 .inner-sugOne {
@@ -164,15 +164,13 @@ main two ends here
 
 .spaceAndAstronomy {
   display: flex;
-  flex: 2.7;
-  justify-content: space-between;
+  flex: 1.9;
   flex-direction: column;
 }
 
 .spaceAndAstronomyInner {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
 }
 
 .spaceAndAstronomyArt {
@@ -198,8 +196,9 @@ main two ends here
   font-size: 45px;
   text-align: center;
   position: relative;
-  right: 30%;
+  right: 0;
   font-style: italic;
+  font-weight: bold;
 }
 
 .mostPopSec {
@@ -318,11 +317,18 @@ a {
 .newsletters {
   display: flex;
   flex-direction: column;
+  border: 1px solid black;
+  border-left: none;
+  border-right: none;
+  margin-right: 20%;
+  padding-bottom: 3%;
+  flex: 1;
+  flex-wrap: wrap;
 }
 
 .containerForPics {
   display: flex;
-  flex-direction: row-reverse;
+  flex: 1;
   margin-right: 20%;
 }
 
@@ -332,4 +338,27 @@ a {
 
 iframe {
   border: 0;
+}
+
+.friclass {
+  height: inherit;
+  width: inherit;
+}
+
+.finSec {
+  display: flex;
+  height: 10;
+  width: 250px;
+}
+
+.firstCon {
+  order: 1;
+}
+
+.secCon {
+  order: 3;
+}
+
+.thirdCon {
+  order: 2;
 }
